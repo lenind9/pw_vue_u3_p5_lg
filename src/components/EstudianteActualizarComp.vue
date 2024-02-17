@@ -10,17 +10,17 @@
         <p type="Apellido: ">
           <input v-model="apellido" type="text" placeholder="Apellido" />
         </p>
-        <p type="Género: "><input v-model="genero" type="text" /></p>
+        <p type="Género: "><input v-model="genero" type="text" placeholder="Género"/></p>
         <p type="Fecha de nacimiento: ">
           <input v-model="fechaNacimiento" type="datetime-local" />
         </p>
-        <p type="Dirección: "><input v-model="direccion" type="text" /></p>
+        <p type="Dirección: "><input v-model="direccion" type="text" placeholder="Dirección"/></p>
         <p type="Correo electrónico: ">
-          <input v-model="correoElectronico" type="text" />
+          <input v-model="correoElectronico" type="text" placeholder="Correo electrónico"/>
         </p>
-        <p type="Edad: "><input v-model="edad" type="text" /></p>
-        <p type="Teléfono: "><input v-model="telefono" type="text" /></p>
-        <p type="Carrera: "><input v-model="carrera" type="text" /></p>
+        <p type="Edad: "><input v-model="edad" type="text" placeholder="Edad"/></p>
+        <p type="Teléfono: "><input v-model="telefono" type="text" placeholder="Teléfono"/></p>
+        <p type="Carrera: "><input v-model="carrera" type="text" placeholder="Carrera"/></p>
 
         <div>
           <button @click="actualizar">Actualizar</button>
